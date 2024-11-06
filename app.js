@@ -1,7 +1,7 @@
 const weatherAppForm = document.querySelector(".weatherAppForm");
 const cityLocation = document.querySelector(".cityLocation");
 const card = document.querySelector(".card");
-const apiKey = "c385e7ef6a8f337c69588b2b18b6472c";
+const apiKey = "####################";
 // Please do not use my api key, the api key will be inactive after sharing.
 
 weatherAppForm.addEventListener("submit", async event => {
