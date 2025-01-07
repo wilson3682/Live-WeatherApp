@@ -68,8 +68,12 @@ To fetch weather data from the OpenWeather API, you need an API key. Follow thes
 > **Note**: Be sure to keep your API key secure. Avoid sharing it publicly or including it in repositories without protecting it.
 
 ## Screenshot 📷
-![Screenshot_2](https://github.com/user-attachments/assets/39e9b2c0-5484-4913-94be-8df18bae9f85)
+![Screenshot_1](https://github.com/user-attachments/assets/39e9b2c0-5484-4913-94be-8df18bae9f85)
 
 ## Screenshot 📷
 ![Screenshot_2](https://github.com/wilson3682/Live-WeatherApp/blob/main/Screenshot%202025-01-07%20154735.png)
+
+## Screenshot 📷
+![Screenshot_3](https://github.com/wilson3682/Live-WeatherApp/blob/main/Screenshot%202025-01-07%20155246.png)
+
 
