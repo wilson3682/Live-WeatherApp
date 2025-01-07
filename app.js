@@ -74,24 +74,49 @@ function displayWeatherInfo(data) {
 }
 
 function getWeatherEmoji(weatherId) {
-
-    switch(true){
+    switch (true) {
         case (weatherId >= 200 && weatherId < 300):
-            return "⛈️";
+            return "⛈️"; // Thunderstorm
         case (weatherId >= 300 && weatherId < 400):
-            return "🌧️";
+            return "🌧️"; // Drizzle
         case (weatherId >= 500 && weatherId < 600):
-            return "🌧️";
-        case (weatherId >= 600 && weatherId < 700):
-            return "❄️";
+            return "🌧️"; // Rain
+        case (weatherId >= 600 && weatherId < 620):
+            return "❄️"; // Snow
+        case (weatherId >= 620 && weatherId < 623):
+            return "🌨️"; // Extreme Snow
         case (weatherId >= 700 && weatherId < 800):
-            return "🌫️";
+            return "🌫️"; // Atmosphere (mist, smoke, haze, etc.)
         case (weatherId === 800):
-            return "☀️";
-        case (weatherId >= 801 && weatherId < 810):
-            return "☁️";
+            return "☀️"; // Clear sky
+        case (weatherId === 801):
+            return "🌤️"; // Few clouds
+        case (weatherId === 802):
+            return "⛅"; // Scattered clouds
+        case (weatherId === 803):
+            return "🌥️"; // Broken clouds
+        case (weatherId === 804):
+            return "☁️"; // Overcast clouds
+        case (weatherId === 900):
+            return "🌪️"; // Tornado
+        case (weatherId === 901):
+            return "🌀"; // Tropical storm
+        case (weatherId === 902):
+            return "🌧️"; // Hurricane
+        case (weatherId === 903):
+            return "❄️"; // Cold
+        case (weatherId === 904):
+            return "🔥"; // Hot
+        case (weatherId === 905):
+            return "🌬️"; // Windy
+        case (weatherId === 906):
+            return "🌨️"; // Hail
+        case (weatherId >= 951 && weatherId <= 957):
+            return "🌬️"; // Breeze to Gale
+        case (weatherId >= 958 && weatherId <= 962):
+            return "💨"; // Storm to Hurricane
         default:
-            return "❓";
+            return "❓"; // Unknown weather condition
     }
 }
 
